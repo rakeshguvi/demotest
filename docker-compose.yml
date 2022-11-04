@@ -1,0 +1,10 @@
+version: '3.9'
+
+services:
+  nginx:
+    image: demo:v1
+    container_name: demo
+    restart: always
+    ports: 
+      - "80:80"
+
